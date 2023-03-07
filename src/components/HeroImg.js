@@ -19,6 +19,7 @@ const HeroImg = () => {
             <h1>Xin Hui</h1>
             <p>I'm a full-stack Java developer and designer.</p>
             <p>I have a bachelor's degree in computer science.</p>
+            <p>I always focus on quality of the code and search the best solutions for the project. </p>
             <div className="btn-container">
                 <Link to="/project" className="btn">PROJECTS</Link>
                 <Link to="/about" className="btn btn-light">ABOUT</Link>

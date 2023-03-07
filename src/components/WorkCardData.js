@@ -1,6 +1,6 @@
 import pro1 from "../assets/bank.png";
 import pro2 from "../assets/superhero.png";
-import pro3 from "../assets/project3.jpg";
+import pro3 from "../assets/portfolio.png";
 
 const ProjectCardData = [
     {
@@ -16,7 +16,7 @@ const ProjectCardData = [
     {
         imgsrc: pro2,
         title: "Super Hero",
-        text: "This project is used to manager super hero profiles including super power, organization. User can record the super hero sightings with specified location info, and search the sightings by date, location and hero.",
+        text: "This project is used to manager super hero profiles including super power, organization. User can record the super hero sightings with specified location info, and search the sightings by date, location and hero. Each hero can join many organizations, can have many super powers.",
         view: "http://ec2-15-222-241-151.ca-central-1.compute.amazonaws.com:8080/",
         source: "https://github.com/GraceXinH/superHero.git",
         function: "A user should be able to record a superhero sighting for a particular location and date. The system should be able to report all of the superheroes sighted at a particular location. The system should be able to report all locations where a particular superhero has been seen. The system should be able to report all sightings (hero and location) for a particular date.  The system should be able to report all of the members of a particular organization. The system should be able to report all of the organizations to which a particular superhero belongs.",
@@ -26,10 +26,10 @@ const ProjectCardData = [
     {
         imgsrc: pro3,
         title: "Portfolio",
-        text: "This is a website. It is used to show professional skills, experiences, projects and contact info.",
-        view: "",
+        text: "This is a website to represente myself. Home page includes a professional-quality photograph, a link to the profile, a summary of the portfolio project. Profile page includes Full name, a photograph, contact information, a short biography. Project page includes a description of the projects and technologies.",
+        view: "http://xportfolio.s3-website.ca-central-1.amazonaws.com",
         source: "https://github.com/GraceXinH/portfolio.git",
-        function: "It has home page, project page and profile page. Home page includes a professional-quality photograph of yourself, a link to your profile, Links to the selected projects, a summary of the portfolio project. Profile page includes Full name, a professional-quality photograph, contact information, a short biography. Project page includes an overview of the portfolio, the goals of the project, a high-level description of each of the programming projects included in the portfolio, technologies",
+        function: "It has home page, project page and profile page. Home page includes a professional-quality photograph, a link to the profile, Links to the selected projects, a summary of the portfolio project. Profile page includes Full name, a professional-quality photograph, contact information, a short biography. Project page includes an overview of the portfolio, the goals of the project, a description of each of the programming projects included in the portfolio, technologies.",
         intro: "It is a website project. It only use front-end technology without database.",
         tech: "React, HTML, CSS, Javascript"
     }
