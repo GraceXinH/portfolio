@@ -1,0 +1,50 @@
+.resume {
+    height: 70vh;
+    background-color: #161a1d;
+    color: #fff;
+    padding-top: 25px;
+}
+
+.resume menu {
+    position: relative;
+    
+    
+}
+.resume ul
+{
+	list-style-type: none;	
+	padding: 0;
+    text-align: center;
+}
+
+.resume li
+{
+    display: inline;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.resume .content {
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.resume .content .active {
+    display: initial;
+    
+}
+
+.resume .content .inactive {
+    display: none;
+}
+
+.selected {
+    color: #f607ba;
+}
+
+.menu li:hover{
+    color: rgb(86, 192, 102);
+}

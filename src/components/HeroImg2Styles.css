@@ -1,0 +1,79 @@
+.hero-img {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    height: 60vh;
+    position: relative;
+}
+
+.hero-img::before {
+    content: "";
+    background-image: url("../assets/james-harrison-vpOeXr5wmR4-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.idContainer {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    z-index: 10;
+    
+}
+
+.idContainer img{
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading p {
+    width: 60%;
+}
+
+.hero-img h1 {
+    font-size: 2.4rem;
+}
+
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .hero-img h1 {
+        font-size: 2rem;
+    }
+    
+    .idContainer {
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        z-index: 10;
+        
+    }
+    
+    .idContainer img{
+        width: 20%;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        border-radius: 60%;
+    }
+}

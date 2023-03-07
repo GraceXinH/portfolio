@@ -1,0 +1,61 @@
+.cards {
+    display: hidden;
+}
+
+.cards .active {
+    width: 100%;
+    padding: 6rem 1rem;
+    background: #000;
+}
+
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.card {
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card:hover {
+    background-color: #141414;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.card p {
+    padding: 10px 0;
+}
+
+.project-content {
+    margin: auto;
+    width: 90%;
+}
+
+.sub-heading {
+    margin: 0.7rem 0rem;
+    color: #7f42ca;
+}
+
+
+.btn-container-detail {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 740px) {
+
+    .project-heading {
+        font-size: 1.2em;
+    }
+}
